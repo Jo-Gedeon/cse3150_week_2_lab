@@ -27,7 +27,7 @@ int main()
     parseName(name, firstName, lastName);
     string username = getUsername(email);
 
-    cout << "First name: " << *firstName << endl;
-    cout << "Last name: " << *lastName << endl;
-    cout << "Username: " << username << endl;
+    cout << *firstName << endl;
+    cout << *lastName << endl;
+    cout << username << endl;
 }
